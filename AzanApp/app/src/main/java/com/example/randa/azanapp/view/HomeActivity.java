@@ -43,6 +43,7 @@ public class HomeActivity extends AppCompatActivity {
             progressDialog.show();
             viewModel.getPrayerTime(city.getText().toString(), country.getText().toString())
                     .subscribe(timeResponse -> {
+                        
                                 result.setText("Fajr prayer: " + timeResponse.getData().getTimings().getFajr()+"\n Maghreb"+timeResponse.getData().getTimings().getMaghrib());
                                 progressDialog.dismiss();
                             },
