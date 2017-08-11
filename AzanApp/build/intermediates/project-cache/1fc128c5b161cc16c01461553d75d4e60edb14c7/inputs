@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=C:\Users\Randa\Downloads\AzanApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar
+FILE_HASH=ee35b486809b712c952a30f8608a04087820ef85
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true
